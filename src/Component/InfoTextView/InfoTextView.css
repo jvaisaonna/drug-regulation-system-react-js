@@ -1,0 +1,23 @@
+.infoTextView-container {
+	margin: 10px 15px;
+	/* background-color: tomato; */
+}
+
+.infoTextView-title {
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.6);
+	line-height: 1;
+}
+
+.infoTextView-content {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 2;
+	vertical-align: baseline;
+}
+
+.infoTextView-description {
+	font-size: 14px;
+	line-height: 0;
+	color: rgba(0, 0, 0, 0.3);
+}

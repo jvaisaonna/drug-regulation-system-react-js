@@ -1,0 +1,7 @@
+.global-border-radius {
+	border-radius: 5px;
+}
+
+.global-box-shadow {
+	box-shadow: 0 2px 8px #e0e0e0;
+}

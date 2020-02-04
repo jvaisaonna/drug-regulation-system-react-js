@@ -1,0 +1,65 @@
+.customButton-container {
+	padding: 5px 15px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.customButton-icon {
+	margin-right: 5px;
+}
+
+.customButton-style-default {
+	background-color: #287194;
+	color: #ffffff;
+}
+
+.customButton-style-default:hover {
+	background-color: rgba(40, 113, 148, 0.85);
+	box-shadow: 0 2px 8px #e0e0e0;
+}
+
+.customButton-style-warning {
+	background-color: #f6bb42;
+	color: #ffffff;
+}
+
+.customButton-style-warning:hover {
+	background-color: #ffce54;
+	box-shadow: 0 2px 8px #e0e0e0;
+}
+
+.customButton-style-danger {
+	background-color: #da4453;
+	color: #ffffff;
+}
+
+.customButton-style-danger:hover {
+	background-color: #ed5565;
+	box-shadow: 0 2px 8px #e0e0e0;
+}
+
+.customButton-style-sky {
+	background-color: rgba(78, 129, 237, 1);
+	color: #ffffff;
+}
+
+.customButton-style-sky:hover {
+	background-color: rgba(78, 129, 237, 0.85);
+	box-shadow: 0 2px 8px #e0e0e0;
+}
+
+.customButton-style-forest {
+	background-color: rgba(1, 56, 49, 1);
+	color: #ffffff;
+}
+
+.customButton-style-forest:hover {
+	background-color: rgba(1, 56, 49, 0.85);
+	box-shadow: 0 2px 8px #e0e0e0;
+}

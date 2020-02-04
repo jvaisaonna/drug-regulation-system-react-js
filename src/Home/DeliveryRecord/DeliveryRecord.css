@@ -1,0 +1,39 @@
+.deliveryRecord-container {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.deliveryRecord-section-divider {
+	width: 50px;
+}
+
+.deliveryRecord-section {
+	flex: 1;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.deliveryRecord-section-title {
+	width: 100%;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 10px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.deliveryRecord-section-content {
+	flex: 1;
+	overflow: hidden;
+}
+
+.deliveryRecord-section-content:hover {
+	overflow-y: scroll;
+}

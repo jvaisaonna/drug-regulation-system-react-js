@@ -1,0 +1,89 @@
+.detailedDrugDeliveryInfo-container {
+	width: 100%;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+	/* padding: 15px 0; */
+
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.detailedDrugDeliveryInfo-section-stuffing {
+	flex: 1;
+}
+
+.detailedDrugDeliveryInfo-section {
+	padding: 0 25px;
+}
+
+.detailedDrugDeliveryInfo-section-row {
+	display: flex;
+	flex-direction: row;
+	/* align-items: center; */
+}
+
+.detailedDrugDeliveryInfo-section-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.detailedDrugDeliveryInfo-section-title {
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0 15px;
+	text-decoration: underline;
+}
+
+.detailedDrugDeliveryInfo-button-container {
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+.detailedDrugDeliveryInfo-button {
+	flex: 1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	cursor: pointer;
+}
+
+.detailedDrugDeliveryInfo-button-icon {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.detailedDrugDeliveryInfo-button-expand {
+	border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.detailedDrugDeliveryInfo-badge {
+	height: 100%;
+	padding: 5px 10px;
+	color: #ffffff;
+}
+
+.detailedDrugDeliveryInfo-badge-pending {
+	background-color: rgba(40, 113, 148, 1);
+}
+
+.detailedDrugDeliveryInfo-badge-process {
+	background-color: #e9573f;
+}
+
+.detailedDrugDeliveryInfo-badge-update {
+	background-color: #f6bb42;
+}
+
+.detailedDrugDeliveryInfo-badge-reject {
+	background-color: #da4453;
+}
+
+.detailedDrugDeliveryInfo-badge-complete {
+	background-color: rgba(1, 56, 49, 1);
+}

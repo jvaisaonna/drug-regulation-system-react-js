@@ -1,0 +1,43 @@
+.medicalHistory-container {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.medicalHistory-section-divider {
+	width: 50px;
+}
+
+.medicalHistory-section {
+	flex: 1;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.medicalHistory-section-title {
+	width: 100%;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 10px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.medicalHistory-section-search-field {
+	margin-bottom: 15px;
+}
+
+.medicalHistory-section-content {
+	overflow: hidden;
+
+	flex: 1;
+}
+
+.medicalHistory-section-content:hover {
+	overflow-y: scroll;
+}

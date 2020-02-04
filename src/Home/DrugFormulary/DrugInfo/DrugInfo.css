@@ -1,0 +1,69 @@
+.drugInfo-container {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 15px;
+
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: row;
+
+	background-color: #ffffff;
+}
+
+.drugInfo-container-valid {
+	border-left: 15px solid #37bc9b;
+}
+
+.drugInfo-container-invalid {
+	border-left: 15px solid #da4453;
+}
+
+.drugInfo-details {
+	flex: 1;
+	margin: 10px 30px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.drugInfo-details-id {
+	font-size: 16px;
+	font-weight: 300;
+	color: rgba(0, 0, 0, 0.3);
+	/* text-decoration: underline; */
+}
+
+.drugInfo-details-name {
+	margin: 3px 0px 2px 0px;
+	font-size: 26px;
+	font-weight: 500;
+	line-height: 1;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.drugInfo-details-type {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.drugInfo-edit-button {
+	height: 100%;
+	width: 100px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #287194;
+	color: #ffffff;
+	font-size: 16px;
+
+	cursor: pointer;
+}
+
+.drugInfo-edit-button:hover {
+	background-color: rgba(40, 113, 148, 0.85);
+}

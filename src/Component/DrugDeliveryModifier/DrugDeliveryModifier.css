@@ -1,0 +1,58 @@
+.drugDeliveryModifier-container {
+	width: 100%;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+	padding: 15px 0;
+
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.drugDeliveryModifier-container-update {
+	width: 100%;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+	padding: 15px 0;
+
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.drugDeliveryModifier-section-stuffing {
+	flex: 1;
+}
+
+.drugDeliveryModifier-section {
+	padding: 0 25px;
+}
+
+.drugDeliveryModifier-section-row {
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.drugDeliveryModifier-section-row > * {
+	flex: 1;
+}
+
+.drugDeliveryModifier-section-title {
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0 15px;
+}
+
+.drugDeliveryModifier-section-button {
+	margin: 0 10px;
+}
+
+.drugDeliveryModifier-section-button > * {
+	padding: 5px 0;
+}

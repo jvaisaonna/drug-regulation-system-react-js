@@ -1,0 +1,30 @@
+.register-container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.register-form {
+	width: 700px;
+	background-color: #ffffff;
+	padding: 15px 25px;
+}
+
+.register-title {
+	text-align: center;
+	font-size: 30px;
+}
+
+.register-row {
+	margin-top: 15px;
+}
+
+.register-row > * {
+	margin: 0 0px;
+}
+
+.register-submit-button {
+	width: 100%;
+}

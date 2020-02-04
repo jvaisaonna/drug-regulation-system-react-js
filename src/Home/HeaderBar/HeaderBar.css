@@ -1,0 +1,56 @@
+.headerBar-container {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	padding: 0 50px;
+}
+
+.headerBar-title {
+	font-size: 35px;
+}
+
+.headerBar-subtitle {
+	line-height: 1;
+	font-size: 15px;
+	color: #adacaf;
+}
+
+.headerBar-divider {
+	margin: 0 25px;
+	border-left: 1px solid rgba(0, 0, 0, 0.65);
+	height: 65%;
+}
+
+.headerBar-page-title {
+	flex: 1;
+	font-size: 35px;
+}
+
+.headerBar-profile-card {
+	display: flex;
+	flex-direction: row;
+}
+
+.headerBar-profile-card-icon {
+	width: 50px;
+	height: 50px;
+}
+
+.headerBar-profile-card-info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 16px;
+}
+
+.headerBar-profile-card-info-name {
+	font-size: 18px;
+}
+
+.headerBar-profile-card-info-status {
+	font-size: 16px;
+	color: #08b59b;
+}

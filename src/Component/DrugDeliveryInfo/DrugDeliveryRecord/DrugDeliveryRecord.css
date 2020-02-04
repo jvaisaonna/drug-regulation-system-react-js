@@ -1,0 +1,56 @@
+.drugDeliveryRecord-container {
+	margin: 10px 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.drugDeliveryRecord-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.drugDeliveryRecord-row {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10px;
+}
+
+.drugDeliveryRecord-stuffing {
+	flex: 1;
+}
+
+.drugDeliveryRecord-index {
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.drugDeliveryRecord-time {
+	margin-left: 15px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.drugDeliveryRecord-badge {
+	height: 100%;
+	padding: 5px 10px;
+	color: #ffffff;
+}
+
+.drugDeliveryRecord-badge-pending {
+	background-color: rgba(40, 113, 148, 1);
+}
+
+.drugDeliveryRecord-badge-process {
+	background-color: #e9573f;
+}
+
+.drugDeliveryRecord-badge-update {
+	background-color: #f6bb42;
+}
+
+.drugDeliveryRecord-badge-reject {
+	background-color: #da4453;
+}
+
+.drugDeliveryRecord-badge-complete {
+	background-color: rgba(1, 56, 49, 1);
+}

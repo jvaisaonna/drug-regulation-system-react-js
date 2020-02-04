@@ -1,0 +1,77 @@
+.drugModifier-container {
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 15px 25px;
+
+	display: flex;
+	flex-direction: column;
+
+	background-color: #ffffff;
+}
+
+.drugModifier-details-input-field {
+	margin-bottom: 20px;
+}
+
+.drugModifier-details-input-field-name {
+	font-size: 18px;
+}
+
+.drugModifier-button {
+	float: right;
+	padding: 5px 15px;
+	height: 40px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.drugModifier-button-icon {
+	margin-right: 5px;
+}
+
+.drugModifier-button-add {
+	background-color: #37bc9b;
+	color: #ffffff;
+}
+
+.drugModifier-button-add:hover {
+	background-color: #48cfad;
+	box-shadow: 0 2px 8px #e0e0e0;
+}
+
+.drugModifier-button-edit {
+	background-color: #287194;
+	color: #ffffff;
+}
+
+.drugModifier-button-edit:hover {
+	background-color: rgba(40, 113, 148, 0.85);
+	box-shadow: 0 2px 8px #e0e0e0;
+}
+
+.drugModifier-button-cancel {
+	margin-right: 10px;
+	float: left;
+	background-color: #da4453;
+	color: #ffffff;
+}
+
+.drugModifier-button-cancel:hover {
+	background-color: #ed5565;
+	box-shadow: 0 2px 8px #e0e0e0;
+}
+
+.drugModifier-button-disable {
+	background-color: rgba(245, 245, 245, 1) !important;
+	color: rgba(184, 184, 184, 1) !important;
+	cursor: default !important;
+}
+
+.drugModifier-button-disable:hover {
+	box-shadow: 0 0px 0px #000000;
+}
